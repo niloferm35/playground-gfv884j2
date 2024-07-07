@@ -86,7 +86,7 @@ class Hello
 // }
 
 foreach(var v in villeHabitants) {
-    Console.WriteLine(v);
+    Console.WriteLine($"{v.key} - {v.Value}");
 }
 
 // { autofold
