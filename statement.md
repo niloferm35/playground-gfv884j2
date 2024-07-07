@@ -7,17 +7,23 @@ Test : tri et fusion de collections d'objet
 using System;
 using System.Collections.Generic.Dictionary;
 
-class Ville {
-
-    Ville(string name, int nbHabitant, decimal surface){
+class Ville 
+{
+    public Ville(string name, int nbHabitant, decimal surface)
+    {
         NbHabitant = nbHabitant;
         Surface = surface;
         Name = name;
     }
 
-    public int NbHabitant;
-    public decimal Surface;
-    public string Name;
+    public int NbHabitant { get; set; }
+    public decimal Surface { get; set; }
+    public string Name { get; set; }
+
+    public override string ToString()
+    {
+        return $"{Name} - Habitants: {NbHabitant}, Surface: {Surface} km²";
+    }
 }
 
 class Hello 
