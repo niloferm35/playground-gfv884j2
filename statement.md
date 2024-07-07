@@ -5,7 +5,7 @@ Test : tri et fusion de collections d'objet
 ```C# runnable
 // { autofold
 using System;
-using System.Collections.Generic.Dictionnary;
+using System.Collections.Generic.Dictionary;
 
 class Ville {
 
@@ -22,7 +22,7 @@ class Hello
 {
     static void Main() 
     {
-        var villeHabitants = new Dictionnary<string, int>() {
+        var villeHabitants = new Dictionary<string, int>() {
         {"Paris",2240621},
         {"Marseille",852516},
         {"Lyon",496343},
