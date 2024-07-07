@@ -9,13 +9,15 @@ using System.Collections.Generic.Dictionary;
 
 class Ville {
 
-    Ville(int nbHabitant, decimal surface){
+    Ville(string name, int nbHabitant, decimal surface){
         NbHabitant = nbHabitant;
         Surface = surface;
+        Name = name;
     }
 
     public int NbHabitant;
     public decimal Surface;
+    public string Name;
 }
 
 class Hello 
