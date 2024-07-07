@@ -5,7 +5,7 @@ Test : tri et fusion de collections d'objet
 ```C# runnable
 // { autofold
 using System;
-using System.Collections.Generic.Dictionary;
+using System.Collections.Generic;
 
 class Ville 
 {
