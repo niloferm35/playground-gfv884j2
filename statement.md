@@ -80,7 +80,7 @@ class Hello
         {"Avignon",89380},
         {"Vitry-sur-Seine",88102},
         {"Poitiers",87646},
-        {"Courbevoie",86854},
+        {"Courbevoie",86854}
 
         };
 // }
