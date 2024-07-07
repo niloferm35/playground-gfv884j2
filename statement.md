@@ -21,7 +21,7 @@ class Hello
 {
     static void Main() 
     {
-        var VilleHabitant = new Dicitionnary<string, int>() {
+        var villeHabitants = new Dicitionnary<string, int>() {
         {"Paris",2240621},
         {"Marseille",852516},
         {"Lyon",496343},
