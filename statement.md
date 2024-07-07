@@ -2,6 +2,29 @@
 
 Test : tri et fusion de collections d'objet
 
+Utiliser la classe :
+
+class Ville 
+{
+    public Ville(string name, int nbHabitant, decimal surface, decimal densite)
+    {
+        NbHabitant = nbHabitant;
+        Surface = surface;
+        Name = name;
+        Densite = densite;
+    }
+
+    public int NbHabitant { get; set; }
+    public decimal Surface { get; set; }
+    public string Name { get; set; }
+    public decimal Densite { get; set; }
+
+    public override string ToString()
+    {
+        return $"{Name} - Habitants: {NbHabitant}, Surface: {Surface} km²";
+    }
+}
+
 ```C# runnable
 // { autofold
 using System;
@@ -9,16 +32,18 @@ using System.Collections.Generic;
 
 class Ville 
 {
-    public Ville(string name, int nbHabitant, decimal surface)
+    public Ville(string name, int nbHabitant, decimal surface, decimal densite)
     {
         NbHabitant = nbHabitant;
         Surface = surface;
         Name = name;
+        Densite = densite;
     }
 
     public int NbHabitant { get; set; }
     public decimal Surface { get; set; }
     public string Name { get; set; }
+    public decimal Densite { get; set; }
 
     public override string ToString()
     {
@@ -82,7 +107,7 @@ class Hello
 
         };
 
-        var villeSuperficie = new Dictionary<string, int>() {
+        var villeSuperficies = new Dictionary<string, int>() {
        {"Paris",105.4},
 {"Marseille",240.62},
 {"Lyon",47.87},
@@ -138,6 +163,11 @@ class Hello
 // }
 
 foreach(var v in villeHabitants) {
+    Console.WriteLine($"{v.Key} - {v.Value}");
+}
+
+
+foreach(var v in villeSuperficies) {
     Console.WriteLine($"{v.Key} - {v.Value}");
 }
 
