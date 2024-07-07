@@ -4,6 +4,7 @@ Test : tri et fusion de collections d'objet
 
 Utiliser la classe :
 
+```
 class Ville 
 {
     public Ville(string name, int nbHabitant, decimal surface, decimal densite)
@@ -24,6 +25,7 @@ class Ville
         return $"{Name} - Habitants: {NbHabitant}, Surface: {Surface} km²";
     }
 }
+```
 
 ```C# runnable
 // { autofold
