@@ -73,10 +73,12 @@ class Hello
         {"Poitiers",87646},
         {"Courbevoie",86854},
 
-        }
+        };
 // }
 
-Console.WriteLine("Hello World!");
+foreach(var v in villeHabitants) {
+    Console.WriteLine(v);
+}
 
 // { autofold
     }
