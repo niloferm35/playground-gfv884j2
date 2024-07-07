@@ -9,7 +9,7 @@ using System.Collections.Generic.Dictionary;
 
 class Ville 
 {
-    public Ville(string name, int nbHabitant, decimal surface)
+    public Ville(String name, int nbHabitant, decimal surface)
     {
         NbHabitant = nbHabitant;
         Surface = surface;
@@ -18,9 +18,9 @@ class Ville
 
     public int NbHabitant { get; set; }
     public decimal Surface { get; set; }
-    public string Name { get; set; }
+    public String Name { get; set; }
 
-    public override string ToString()
+    public override String ToString()
     {
         return $"{Name} - Habitants: {NbHabitant}, Surface: {Surface} km²";
     }
@@ -30,7 +30,7 @@ class Hello
 {
     static void Main() 
     {
-        var villeHabitants = new Dictionary<string, int>() {
+        var villeHabitants = new Dictionary<String, int>() {
         {"Paris",2240621},
         {"Marseille",852516},
         {"Lyon",496343},
