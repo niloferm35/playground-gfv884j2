@@ -1,6 +1,6 @@
 # Welcome!
 
-Test : tri et fusion de collections d'objet
+Test : trier les ville par densite
 
 Utiliser la classe :
 
