@@ -109,7 +109,7 @@ class Hello
 
         };
 
-        var villeSuperficies = new Dictionary<string, int>() {
+        var villeSuperficies = new Dictionary<string, decimal>() {
        {"Paris",105.4},
 {"Marseille",240.62},
 {"Lyon",47.87},
