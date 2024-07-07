@@ -1,6 +1,6 @@
 # Welcome!
 
-Test de correction d'anomalie sur du tri
+Test : tri et fusion de collections d'objet
 
 ```C# runnable
 // { autofold
