@@ -6,10 +6,26 @@ Test : tri et fusion de collections d'objet
 // { autofold
 using System;
 
+class Pays {
+
+    Pays(int nbHabitant, decimal surface, decimal pib){
+        NbHabitant = nbHabitant;
+        Surface = surface;
+        Pib = pib;
+    }
+
+    public int NbHabitant;
+    public decimal Surface;
+    public decimal Pib;
+}
+
 class Hello 
 {
     static void Main() 
     {
+        var pays = new List<Pays>() {
+            new Pays()
+        }
 // }
 
 Console.WriteLine("Hello World!");
