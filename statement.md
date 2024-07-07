@@ -30,7 +30,7 @@ class Hello
 {
     static void Main() 
     {
-        Dictionary<string, int> villeHabitants = new Dictionary<string, int>() {
+        var villeHabitants = new Dictionary<string, int>() {
         {"Paris",2240621},
         {"Marseille",852516},
         {"Lyon",496343},
