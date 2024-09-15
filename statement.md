@@ -10,6 +10,13 @@ class Ville
     public Ville(string name, int nbHabitant, decimal surface, decimal densite)
     {
         NbHabitant = nbHabitant;
+number currency
+
+
+
+
+
+
         Surface = surface;
         Name = name;
         Densite = densite;
